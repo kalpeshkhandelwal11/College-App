@@ -33,6 +33,11 @@ An Individual can create an account as students, faculty or HOD. Faculty can sha
 
 • Students can check their own attendance and not of any other student. 
 
+# How to run
+
+ i. Create a firebase project and enable authentication and realtime database and cloud firestore also cloud storage. 
+ ii. Download google.json file and put it in the required directory. 
+
 
 
 
