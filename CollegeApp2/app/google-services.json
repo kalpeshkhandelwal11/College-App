@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "494974597307",
+    "firebase_url": "https://jhccollegeapp.firebaseio.com",
+    "project_id": "jhccollegeapp",
+    "storage_bucket": "jhccollegeapp.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:494974597307:android:b4df71e53115cd8a",
+        "android_client_info": {
+          "package_name": "com.kalpesh.collegeapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "494974597307-5t40t834hksurh8lov0qnnaeki1bl70u.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.kalpesh.collegeapp",
+            "certificate_hash": "ebc47551b541e6d9e35fba2feaa7c5c4c89a46ea"
+          }
+        },
+        {
+          "client_id": "494974597307-vjcnhd10d3ca400psee4343hb9vtq0lu.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD17TyvzMRWuH7JvHkOPeH1KmmZNtHvHo8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "494974597307-vjcnhd10d3ca400psee4343hb9vtq0lu.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

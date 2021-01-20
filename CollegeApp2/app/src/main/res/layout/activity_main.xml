@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/backdesign"
+    tools:context=".MainActivity">
+
+    <androidx.appcompat.widget.LinearLayoutCompat
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_gravity="center_vertical">
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="College APP"
+            android:textAppearance="@style/TextAppearance.AppCompat.Large"
+            android:textSize="50dp"
+            android:layout_marginBottom="10dp"
+            android:textColor="@android:color/white" />
+
+        <androidx.appcompat.widget.AppCompatImageView
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="10dp"
+            android:src="@drawable/newlogo"
+            app:srcCompat="@drawable/newlogo"
+            tools:srcCompat="@drawable/newlogo"></androidx.appcompat.widget.AppCompatImageView>
+
+        <androidx.appcompat.widget.AppCompatEditText
+            android:id="@+id/email_login"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:layout_gravity="end"
+            android:hint="Email:"
+            android:inputType="textEmailAddress"
+            android:textColor="@android:color/white"
+            android:textColorHint="@android:color/white" />
+
+        <androidx.appcompat.widget.AppCompatEditText
+            android:id="@+id/password_login"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:hint="Password:"
+            android:inputType="textPassword"
+            android:textColor="@android:color/white"
+            android:textColorHint="@android:color/white" />
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/btn_login"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:text="Sign in"
+
+            android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+            android:background="@drawable/button_design"
+            android:textColor="@android:color/white"
+            />
+        <androidx.appcompat.widget.AppCompatTextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="OR"
+            android:textAppearance="@style/TextAppearance.AppCompat.Large"
+
+            android:textColor="@android:color/black" />
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/btn_Register"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:text="Register"
+            android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+            android:background="@drawable/button_design"
+            android:textColor="@android:color/white"
+            />
+<androidx.appcompat.widget.AppCompatTextView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:id="@+id/fplabel"
+    android:text="Forgot Password?"
+    android:textColor="@android:color/white"
+    android:gravity="center"
+    android:layout_margin="10dp"
+    android:textAppearance="@style/TextAppearance.AppCompat.Large"></androidx.appcompat.widget.AppCompatTextView>
+    </androidx.appcompat.widget.LinearLayoutCompat>
+
+
+</androidx.appcompat.widget.LinearLayoutCompat>

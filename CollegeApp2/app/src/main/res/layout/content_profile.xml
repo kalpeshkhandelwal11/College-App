@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context=".ProfileActivity"
+    tools:showIn="@layout/activity_profile">
+    <androidx.core.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <androidx.appcompat.widget.LinearLayoutCompat
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <androidx.appcompat.widget.AppCompatTextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="Profile"
+                android:textAppearance="@style/TextAppearance.AppCompat.Large"
+                android:textSize="50dp"
+                android:layout_marginBottom="10dp"
+                android:textColor="@android:color/black" />
+            <ImageView
+                android:id="@+id/UserPhoto1"
+                android:layout_width="125dp"
+                android:layout_height="120dp"
+                android:layout_gravity="center"
+                android:src="@drawable/userphoto"
+                ></ImageView>
+            <TextView
+                android:id="@+id/name1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:layout_gravity="end"
+                android:text="Name:"
+                android:textColor="@android:color/black"
+                ></TextView>
+            <TextView
+                android:id="@+id/email1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:layout_gravity="end"
+                android:text="Email:"
+                android:textColor="@android:color/black"
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Phone no:"
+                android:id="@+id/phone1"
+                android:textColor="@android:color/black"
+                android:layout_margin="10dp"
+                />
+            <com.google.android.material.circularreveal.CircularRevealRelativeLayout
+                android:layout_width="match_parent"
+                android:layout_margin="10dp"
+                android:layout_height="wrap_content">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="@android:color/black"
+                    android:text="Department"
+                    android:textAppearance="@style/TextAppearance.AppCompat.Medium"/>
+                <TextView
+                    android:id="@+id/department1"
+                    android:layout_width="match_parent"
+                    android:layout_margin="10dp"
+                    android:gravity="right"
+                    android:text="Display department"
+                    android:layout_height="wrap_content" />
+            </com.google.android.material.circularreveal.CircularRevealRelativeLayout>
+
+            <com.google.android.material.circularreveal.CircularRevealRelativeLayout
+                android:layout_width="match_parent"
+                android:layout_margin="10dp"
+                android:layout_height="wrap_content">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="@android:color/black"
+                    android:text="user type"
+                    android:textAppearance="@style/TextAppearance.AppCompat.Medium"/>
+                <TextView
+                    android:id="@+id/post1"
+                    android:layout_width="match_parent"
+                    android:layout_margin="10dp"
+                    android:gravity="right"
+                    android:text="post"
+                    android:backgroundTint="@android:color/black"
+                    android:layout_height="wrap_content" />
+            </com.google.android.material.circularreveal.CircularRevealRelativeLayout>
+
+
+        </androidx.appcompat.widget.LinearLayoutCompat>
+    </androidx.core.widget.NestedScrollView>
+
+</androidx.appcompat.widget.LinearLayoutCompat>

@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context=".Mynoticedetail"
+    tools:showIn="@layout/activity_mynoticedetail">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        <TextView
+            android:layout_margin="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/view_title1"
+            android:text="Title"
+            android:textColor="@android:color/black"
+            android:gravity="center"
+            android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+            android:textSize="40sp"
+            >
+
+        </TextView>
+
+        <TextView
+            android:id="@+id/view_date1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:gravity="right"
+            android:layout_gravity="right"
+
+            android:text="date of notice"
+            android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+            android:textIsSelectable="true"
+            android:textSize="20sp"></TextView>
+
+        <TextView
+            android:id="@+id/view_Description1"
+            android:layout_width="match_parent"
+            android:layout_height="209dp"
+            android:layout_margin="10dp"
+            android:text="Description"
+            android:textIsSelectable="true"
+            android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+            android:textSize="20sp">
+
+        </TextView>
+
+
+        <TextView
+            android:id="@+id/view_todate1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:text="Validity"
+            android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+            android:textIsSelectable="true"
+            android:textSize="20sp">
+
+        </TextView>
+
+        <TextView
+            android:layout_margin="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/view_author1"
+            android:text="Name of author"
+            android:textIsSelectable="true"
+            android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+            android:textSize="20sp"
+            >
+
+        </TextView>
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Download pdf"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:id="@+id/fetchpdf1"
+            android:layout_margin="10dp"
+            ></Button>
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Delete Notice"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:id="@+id/deleteNotice1"
+            android:layout_margin="10dp"
+            ></Button>
+
+
+
+    </LinearLayout>
+</androidx.appcompat.widget.LinearLayoutCompat>

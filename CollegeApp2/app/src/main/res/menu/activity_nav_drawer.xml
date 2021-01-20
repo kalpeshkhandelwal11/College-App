@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/ic_home_black_24dp"
+            android:title="@string/menu_home" />
+        <item
+            android:id="@+id/nav_users"
+            android:icon="@drawable/ic_people_black_24dp"
+            android:title="Users" />
+        <item
+            android:id="@+id/myprofile"
+            android:icon="@drawable/ic_person_black_24dp"
+            android:title="My Profile" />
+        <item
+            android:id="@+id/chat"
+            android:icon="@drawable/ic_menu_send"
+            android:title="Global Chat" />
+        <item
+            android:id="@+id/collegeloc"
+            android:icon="@drawable/ic_baseline_location_on_24"
+            android:title="College Location" />
+        <item
+            android:id="@+id/atten"
+            android:icon="@drawable/ic_baseline_location_on_24"
+            android:title="Attendance" />
+    </group>
+
+    <item android:title="">
+        <menu>
+            <item
+                android:id="@+id/Mynotices"
+                android:icon="@drawable/ic_control_point_black_24dp"
+                android:title="My Notices" />
+            <item
+                android:id="@+id/ShowAttendance"
+                android:icon="@drawable/ic_control_point_black_24dp"
+                android:title="Show Attendance" />
+        </menu>
+    </item>
+
+</menu>
